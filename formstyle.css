@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body 
+{ 
+    background-color:#05090E #C7C552; 
+    background: linear-gradient(to left, rgb(14, 14, 13) 10%, rgb(116, 23, 23) 90%);
+    font-family: Verdana, Geneva, Arial, sans-serif; 
+    padding:0px; 
+    margin:0px; 
+}
+h1 {
+    color: white;
+    
+  }
+p {
+    color: white;
+}
+#wrapper 
+{ 
+    width: 960px;
+    height: 800px; 
+    margin-left: 30%; 
+    margin-right: 40%; 
+     
+}
