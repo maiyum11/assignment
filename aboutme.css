@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body { 
     background-color: rgb(0, 0, 0);
    
@@ -13,6 +14,7 @@ body {
     padding: 0%;
     box-sizing: border-box;
 }
+/*to add style to the wrapper class*/
 .wrapper{
     width: 960px;
     margin: 0 auto;
@@ -31,18 +33,28 @@ h2{
     font-size: 25px;
     margin-bottom: 0.1px;
 }
+/*to add style/ properly align the picture on the page*/
 .photo{
     /*margin-top: auto;
-    margin-bottom: 5px;*/
+    margin-bottom: 5px;
     max-width: 100%;
-    height: auto;
+    height: auto;*/
+    width: 960px;
+    /*width: 100px;
+    max-width: 90%;
+    margin: 2px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;*/
 }
+/*font style within*/
 p{
     color: red;
     font-size: medium;
     line-height: normal;
     margin-bottom: 5px;
 }
+/*to create a hovering effect on the headings and para. */
 h1:hover{
     background-color: rgba(21, 20, 18, 0.753);
 }
@@ -68,50 +80,31 @@ h5{
     color: aliceblue;
     text-align: center;
 }
-
-/*.aboutme{ 
-    width: 550px;
-    padding: 70px 5px;
-    background-color: rgb(0, 0, 0);         
-}
-.wrapper img{
-height: 200px;
-width: 820px;
-
+/*to style the homepage nav*/
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
 
 }
-.side2{
-width: 960px;    
+nav ul li a{
+    color:whitesmoke;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
 }
-.side2 h1{
-color: white;
-font-size: 60px;
-text-transform: capitalize;
-margin-bottom: 20px;
+/*the page name underlined*/
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 5px;
+    background: rgb(255, 2, 2);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.7s;
 }
-.side2 p{
-color: white;
-font-size: 15px;
-line-height: 20px ;
-letter-spacing: 0.5px;
-margin-bottom: 40px;
+/* the size of the line ^*/
+nav ul li a:hover::after{
+    width: 100%;
 }
-.wrapper{
-width: 100px;
-max-width: 90%;
-margin: 2px auto;
-display: flex;
-align-items: center;
-justify-content: space-around;
-
-}
-button{
-background-color:rgb(0, 0, 0);
-color: tomato;
-font-weight: bold;
-font-size: 16px;
-text-decoration: none;
-padding: 1px 2px;
-border-radius: 6px;
-}*/
-
