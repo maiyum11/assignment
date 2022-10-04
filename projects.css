@@ -2,6 +2,10 @@ body{
     background-color: black;
     color: red;
 }
+h2{
+    font-size: smaller;
+    text-align-last: center;
+}
 .box 
 { 
     height: 250px; 
@@ -11,7 +15,7 @@ body{
     margin: 15px; 
     opacity:.5; 
     text-align-last: center;
-    font-size: large;
+    font-size: 20px;
    
 } 
 .box:hover 
@@ -26,4 +30,7 @@ h1{
 p{
     text-align-last: center;
     font-weight: bold;
+}
+.box p{
+    text-align-last: auto;
 }

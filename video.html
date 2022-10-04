@@ -2,18 +2,18 @@
 <html> 
 <head> 
 <meta charset="UTF-8"> 
-<title>Video Template</title> 
-<link rel="stylesheet" type="text/css" href="style.css"> 
+<title>Video</title> 
+<link rel="stylesheet" type="text/css" href="video.css"> 
 </head> 
 <body> 
 <div id="wrapper"> 
-<h1>Watch Our Video!<h1>
+<h1>Step to Success</h1>
     <video width="320" height="240" controls preload="auto" autoplay loop muted poster="on_record.png" id="video"> 
-        <source src="on_record.mp4" type="video/mp4"> 
-        <source src="on_record.ogv" type="video/ogg"> 
+        <source src="Step to successmp4.mp4" type="video/mp4"> 
+        <source src="Step to successogv.ogv" type="video/ogg"> 
         </video> 
 <br> 
-<button onclick="playPause()">Play or pause the video</button> 
+<button onclick="playPause()">Play or Pause</button> 
 <script> 
 var myVideo=document.getElementById("video"); 
 function playPause() 
@@ -24,5 +24,9 @@ else myVideo.pause();
 } 
 </script>
 </div>
+<div class="clear"></div> 
+        <div id="footer"> 
+            <h5>ⓒ A site by Mariam Shahnawaz</h5>
+    </div>
 </body>
 </html>
