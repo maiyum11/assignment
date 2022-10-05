@@ -33,19 +33,9 @@ h2{
     font-size: 25px;
     margin-bottom: 0.1px;
 }
-/*to add style/ properly align the picture on the page*/
+/*picture size on the page*/
 .photo{
-    /*margin-top: auto;
-    margin-bottom: 5px;
-    max-width: 100%;
-    height: auto;*/
     width: 960px;
-    /*width: 100px;
-    max-width: 90%;
-    margin: 2px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;*/
 }
 /*font style within*/
 p{

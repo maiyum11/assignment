@@ -30,6 +30,7 @@ background: linear-gradient(to left, rgb(116, 23, 23), rgb(14, 14, 13) 30%90%);
 height:60px;
 background-color:rgba(21, 3, 3, 0.801);
 }
+/*box styling on tab/phone display*/
 .box {
 width: 95%;
 min-height:120px;
